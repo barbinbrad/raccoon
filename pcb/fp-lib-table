@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "raccoon")(type "KiCad")(uri "${KIPRJMOD}/raccoon.pretty")(options "")(descr ""))
+)

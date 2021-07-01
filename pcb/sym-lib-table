@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "raccoon")(type "Legacy")(uri "${KIPRJMOD}/racoon.symbols/raccoon.lib")(options " pwr_sym_only pwr_sym_only")(descr ""))
+  (lib (name "RF_GPS")(type "Legacy")(uri "${KIPRJMOD}/racoon.symbols/RF_GPS.lib")(options "")(descr ""))
+  (lib (name "U.FL-R-SMT_01_")(type "Legacy")(uri "${KIPRJMOD}/racoon.symbols/U.FL-R-SMT_01_.lib")(options "")(descr ""))
+  (lib (name "feedthrough")(type "KiCad")(uri "${KIPRJMOD}/racoon.symbols/feedthrough.kicad_sym")(options "")(descr ""))
+  (lib (name "DTM13-12PA")(type "Legacy")(uri "${KIPRJMOD}/racoon.symbols/DTM13-12PA.lib")(options "")(descr ""))
+)
