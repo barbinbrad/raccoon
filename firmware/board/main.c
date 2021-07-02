@@ -2,7 +2,7 @@
 
 // ********************* Includes *********************
 #include "config.h"
-#include "obj/gitversion.h"
+
 
 #include "main_declarations.h"
 #include "critical.h"
@@ -395,9 +395,9 @@ int usb_cb_control_msg(USB_Setup_TypeDef *setup, uint8_t *resp, bool hardwired) 
       break;
     // **** 0xd6: get version
     case 0xd6:
-      COMPILE_TIME_ASSERT(sizeof(gitversion) <= MAX_RESP_LEN);
-      (void)memcpy(resp, gitversion, sizeof(gitversion));
-      resp_len = sizeof(gitversion) - 1U;
+      // COMPILE_TIME_ASSERT(sizeof(gitversion) <= MAX_RESP_LEN);
+      // (void)memcpy(resp, gitversion, sizeof(gitversion));
+      // resp_len = sizeof(gitversion) - 1U;
       break;
     // **** 0xd8: reset ST
     case 0xd8:

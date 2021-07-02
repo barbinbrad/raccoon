@@ -13,6 +13,7 @@ void detect_board_type(void) {
     // SPI lines floating: white (TODO: is this reliable? Not really, we have to enable ESP/GPS to be able to detect this on the UART)
     set_gpio_output(GPIOC, 14, 1);
     set_gpio_output(GPIOC, 5, 1);
+    set_gpio_mode(GPIOB, 15, MODE_INPUT);
     int has_gps  = !get_gpio_input(GPIOB, 15);
     if(has_gps == 0){
       hw_type = HW_TYPE_WHITE_PANDA;
