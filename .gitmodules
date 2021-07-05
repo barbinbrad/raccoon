@@ -1,0 +1,3 @@
+[submodule "firmware/panda"]
+	path = firmware/panda
+	url = https://github.com/barbinbrad/panda
