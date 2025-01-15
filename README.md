@@ -4,7 +4,7 @@ PCB and firmware for a USB to CAN interface, with support for 4 CAN transceivers
 ![board](https://raw.githubusercontent.com/barbinbrad/raccoon/main/black-raccoon.png)
 
 ## Usage
-For self-driving, it is better to buy a [black panda](https://comma.ai/shop/products/panda) from comma.ai. In addition to getting a more reliable product, you'll be supporting open-source software and a really smart group of people.
+For self-driving, it is better to buy a [red panda](https://comma.ai/shop/products/panda) from comma.ai. In addition to getting a more reliable product, you'll be supporting open-source software and a really smart group of people.
 
 ## Header
 
